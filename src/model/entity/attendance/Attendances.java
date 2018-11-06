@@ -10,6 +10,7 @@ package model.entity.attendance;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -115,145 +116,82 @@ public class Attendances {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
+    	"Attendance_Id",
         "studentId",
-        "scheduleId",
-        "groupName",
-        "courseName",
-        "present"
+        "Attendance_Slot",
+        "Attendance_Lecture",
+        "Attendance_Date_Id",
+        "Attendance_Status",
+        "Attendance_GroupName",
+        "Attendance_Course"
     })
     public static class Attendance {
-
-        @XmlElement(name = "StudentId")
+    	@XmlElement(name = "Attendance_Id")
+        protected String Attendance_Id;
+        @XmlElement(name = "studentId")
         protected String studentId;
-        @XmlElement(name = "ScheduleId")
-        protected String scheduleId;
-        @XmlElement(name = "GroupName")
-        protected String groupName;
-        @XmlElement(name = "CourseName")
-        protected String courseName;
-        @XmlElement(name = "Present")
-        protected String present;
-
-        /**
-         * Gets the value of the studentId property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getStudentId() {
-            return studentId;
-        }
-
-        /**
-         * Sets the value of the studentId property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setStudentId(String value) {
-            this.studentId = value;
-        }
-
-        /**
-         * Gets the value of the scheduleId property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getScheduleId() {
-            return scheduleId;
-        }
-
-        /**
-         * Sets the value of the scheduleId property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setScheduleId(String value) {
-            this.scheduleId = value;
-        }
-
-        /**
-         * Gets the value of the groupName property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getGroupName() {
-            return groupName;
-        }
-
-        /**
-         * Sets the value of the groupName property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setGroupName(String value) {
-            this.groupName = value;
-        }
-
-        /**
-         * Gets the value of the courseName property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getCourseName() {
-            return courseName;
-        }
-
-        /**
-         * Sets the value of the courseName property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setCourseName(String value) {
-            this.courseName = value;
-        }
-
-        /**
-         * Gets the value of the present property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getPresent() {
-            return present;
-        }
-
-        /**
-         * Sets the value of the present property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setPresent(String value) {
-            this.present = value;
-        }
-
+        @XmlElement(name = "Attendance_Slot")
+        protected String Attendance_Slot;
+        @XmlElement(name = "Attendance_Lecture")
+        protected String Attendance_Lecture;
+        @XmlElement(name = "Attendance_Date_Id")
+        protected String Attendance_Date_Id;
+        @XmlElement(name = "Attendance_Status")
+        protected int Attendance_Status;
+        @XmlElement(name = "Attendance_GroupName")
+        protected String Attendance_GroupName;
+        @XmlElement(name = "Attendance_Course")
+        protected String Attendance_Course;
+        
+		public String getAttendance_Id() {
+			return Attendance_Id;
+		}
+		public void setAttendance_Id(String attendance_Id) {
+			Attendance_Id = attendance_Id;
+		}
+		public String getStudentId() {
+			return studentId;
+		}
+		public void setStudentId(String studentId) {
+			this.studentId = studentId;
+		}
+		public String getAttendance_Slot() {
+			return Attendance_Slot;
+		}
+		public void setAttendance_Slot(String attendance_Slot) {
+			Attendance_Slot = attendance_Slot;
+		}
+		public String getAttendance_Lecture() {
+			return Attendance_Lecture;
+		}
+		public void setAttendance_Lecture(String attendance_Lectures) {
+			Attendance_Lecture = attendance_Lectures;
+		}
+		public String getAttendance_Date_Id() {
+			return Attendance_Date_Id;
+		}
+		public void setAttendance_Date_Id(String attendance_Date_Ids) {
+			Attendance_Date_Id = attendance_Date_Ids;
+		}
+		public int getAttendance_Status() {
+			return Attendance_Status;
+		}
+		public void setAttendance_Status(int attendance_Status) {
+			Attendance_Status = attendance_Status;
+		}
+		public String getAttendance_GroupName() {
+			return Attendance_GroupName;
+		}
+		public void setAttendance_GroupName(String attendance_GroupName) {
+			Attendance_GroupName = attendance_GroupName;
+		}
+		public String getAttendance_Course() {
+			return Attendance_Course;
+		}
+		public void setAttendance_Course(String attendance_Course) {
+			Attendance_Course = attendance_Course;
+		}		
+		
     }
 
 }

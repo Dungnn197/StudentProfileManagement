@@ -45,8 +45,7 @@
                 Forgot the password?
             </a>
         </div><!-- /card-container -->
-    </div><!-- /container -->
-    
+    </div><!-- /container --> 
 </div>
 </body>
 </html>
