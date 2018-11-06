@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+.menu_bar ul{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.menu_bar li{
+    width: 20%;
+    float: left;
+    color:blue;
+}
+
+.table_info_student{   
+    border-collapse: collapse;
+    width:80%;
+    float:right;
+    counter-reset: section;   
+}
+
+table{
+    width:100%;
+}
+.table_info_student .header_table{
+    background-color:#6b90da;
+    font-size:15px;
+    height:30px;
+    color:white;
+}
+
+.table_info_student td{
+        border:1px solid white;
+        width:15%;
+}
+
+.table_info_student .count:before{
+    counter-increment: section;
+  content: counter(section);
+}
+
+.table_info_student tr{
+        height:10px;
+}
+
+.table_info_student img{
+    width:80%;
+    height:200px;
+    margin-left:10%;
+ }

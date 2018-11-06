@@ -1,0 +1,9 @@
+<Attendances>
+  <Attendance>
+    <StudentId>SE05043</StudentId>
+    <ScheduleId>Sch1</ScheduleId>
+    <GroupName>IS1104</GroupName>
+    <CourseName>Principles of Marxism - Leninism</CourseName>
+    <Present>1</Present>
+  </Attendance>
+</Attendances>

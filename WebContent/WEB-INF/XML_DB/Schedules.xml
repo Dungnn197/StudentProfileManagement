@@ -1,0 +1,13 @@
+<Schedules>
+  <Schedule>
+    <ScheduleId>Sch1</ScheduleId>
+    <StudentId>SE05043</StudentId>
+    <StudentGroupId>SG1</StudentGroupId>
+    <CourseName>Principles of Marxism - Leninism</CourseName>
+    <RoomName>Class Room</RoomName>
+    <Date>2018-03-11T00:00:00</Date>
+    <Slot>1</Slot>
+    <Instructor>AnhPN</Instructor>
+    <Campus>Hòa Lạc</Campus>
+  </Schedule>
+</Schedules>

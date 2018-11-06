@@ -1,0 +1,37 @@
+﻿<Students>
+  <Student>
+    <StudentId>SE04510</StudentId>
+    <FullName>Nguyễn Ngọc Dũng</FullName>
+    <Address>Hà Nội</Address>
+    <PhoneNumber>0987817015</PhoneNumber>
+    <Email>dungnnse04510@fpt.edu.vn</Email>
+  </Student>
+  <Student>
+    <StudentId>SE04623</StudentId>
+    <FullName>Trần Hoàng Thịnh</FullName>
+    <Address>Hà Nội</Address>
+    <PhoneNumber>0987817015</PhoneNumber>
+    <Email>thinhthse04623@fpt.edu.vn</Email>
+  </Student>
+  <Student>
+    <StudentId>SE04793</StudentId>
+    <FullName>Nguyễn Văn Sơn</FullName>
+    <Address>Hà Nội</Address>
+    <PhoneNumber>0987817015</PhoneNumber>
+    <Email>sonnvse04793@fpt.edu.vn</Email>
+  </Student>
+  <Student>
+    <StudentId>SE04890</StudentId>
+    <FullName>Nguyễn Anh Quyết</FullName>
+    <Address>Hà Nội</Address>
+    <PhoneNumber>0987817015</PhoneNumber>
+    <Email>quyetnase04890@fpt.edu.vn</Email>
+  </Student>
+  <Student>
+    <StudentId>SE05043</StudentId>
+    <FullName>Đặng Thành Đạt</FullName>
+    <Address>Hà Nội</Address>
+    <PhoneNumber>0987817015</PhoneNumber>
+    <Email>datdtse05043@fpt.edu.vn</Email>
+  </Student>
+</Students>

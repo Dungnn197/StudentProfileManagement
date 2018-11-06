@@ -1,0 +1,26 @@
+<Rooms>
+  <Room>
+    <RoomId>HB/404L</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+  <Room>
+    <RoomId>HB/404R</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+  <Room>
+    <RoomId>HB/405L</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+  <Room>
+    <RoomId>HB/405R</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+  <Room>
+    <RoomId>HB/407L</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+  <Room>
+    <RoomId>HB/407R</RoomId>
+    <RoomName>Class Room</RoomName>
+  </Room>
+</Rooms>

@@ -1,0 +1,22 @@
+<Courses>
+  <Course>
+    <CourseId>DBW301</CourseId>
+    <CourseName>Data Warehouse</CourseName>
+  </Course>
+  <Course>
+    <CourseId>MAS291</CourseId>
+    <CourseName>Probability and Statistics</CourseName>
+  </Course>
+  <Course>
+    <CourseId>MLN101</CourseId>
+    <CourseName>Principles of Marxism - Leninism</CourseName>
+  </Course>
+  <Course>
+    <CourseId>PRX301</CourseId>
+    <CourseName>Advanced XML</CourseName>
+  </Course>
+  <Course>
+    <CourseId>SWM301</CourseId>
+    <CourseName>Software Project Management</CourseName>
+  </Course>
+</Courses>

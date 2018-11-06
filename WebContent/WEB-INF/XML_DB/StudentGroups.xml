@@ -1,0 +1,27 @@
+<StudentGroups>
+  <StudentGroup>
+    <StudentGroupId>SG1</StudentGroupId>
+    <GroupName>IS1104</GroupName>
+    <StudentId>SE05043</StudentId>
+  </StudentGroup>
+  <StudentGroup>
+    <StudentGroupId>SG2</StudentGroupId>
+    <GroupName>IS1104</GroupName>
+    <StudentId>SE04623</StudentId>
+  </StudentGroup>
+  <StudentGroup>
+    <StudentGroupId>SG3</StudentGroupId>
+    <GroupName>IS1104</GroupName>
+    <StudentId>SE04510</StudentId>
+  </StudentGroup>
+  <StudentGroup>
+    <StudentGroupId>SG4</StudentGroupId>
+    <GroupName>IS1104</GroupName>
+    <StudentId>SE04793</StudentId>
+  </StudentGroup>
+  <StudentGroup>
+    <StudentGroupId>SG5</StudentGroupId>
+    <GroupName>IS1104</GroupName>
+    <StudentId>SE04890</StudentId>
+  </StudentGroup>
+</StudentGroups>
