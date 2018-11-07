@@ -5,22 +5,24 @@
 //         Generated on: 2018.11.06 at 04:16:31 PM ICT 
 //
 
-
 package model.entity.student;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for anonymous complex type.
+ * <p>
+ * Java class for anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected         content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -51,209 +53,192 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "student"
-})
+@XmlType(name = "", propOrder = { "student" })
 @XmlRootElement(name = "Students")
 public class Students {
 
-    @XmlElement(name = "Student")
-    protected List<Students.Student> student;
+	@XmlElement(name = "Student")
+	protected List<Students.Student> student;
 
-    /**
-     * Gets the value of the student property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the student property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getStudent().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Students.Student }
-     * 
-     * 
-     */
-    public List<Students.Student> getStudent() {
-        if (student == null) {
-            student = new ArrayList<Students.Student>();
-        }
-        return this.student;
-    }
+	/**
+	 * Gets the value of the student property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a snapshot.
+	 * Therefore any modification you make to the returned list will be present
+	 * inside the JAXB object. This is why there is not a <CODE>set</CODE> method
+	 * for the student property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getStudent().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link Students.Student }
+	 * 
+	 * 
+	 */
+	public List<Students.Student> getStudent() {
+		if (student == null) {
+			student = new ArrayList<Students.Student>();
+		}
+		return this.student;
+	}
 
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained within
+	 * this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType&gt;
+	 *   &lt;complexContent&gt;
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+	 *       &lt;sequence&gt;
+	 *         &lt;element name="StudentId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+	 *         &lt;element name="FullName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+	 *         &lt;element name="Address" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+	 *         &lt;element name="PhoneNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+	 *         &lt;element name="Email" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+	 *       &lt;/sequence&gt;
+	 *     &lt;/restriction&gt;
+	 *   &lt;/complexContent&gt;
+	 * &lt;/complexType&gt;
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "studentId", "fullName", "address", "phoneNumber", "email" })
+	public static class Student {
 
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected         content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType&gt;
-     *   &lt;complexContent&gt;
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
-     *       &lt;sequence&gt;
-     *         &lt;element name="StudentId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
-     *         &lt;element name="FullName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
-     *         &lt;element name="Address" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
-     *         &lt;element name="PhoneNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
-     *         &lt;element name="Email" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
-     *       &lt;/sequence&gt;
-     *     &lt;/restriction&gt;
-     *   &lt;/complexContent&gt;
-     * &lt;/complexType&gt;
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "studentId",
-        "fullName",
-        "address",
-        "phoneNumber",
-        "email"
-    })
-    public static class Student {
+		@XmlElement(name = "StudentId")
+		protected String studentId;
+		@XmlElement(name = "FullName")
+		protected String fullName;
+		@XmlElement(name = "Address")
+		protected String address;
+		@XmlElement(name = "PhoneNumber")
+		protected String phoneNumber;
+		@XmlElement(name = "Email")
+		protected String email;
 
-        @XmlElement(name = "StudentId")
-        protected String studentId;
-        @XmlElement(name = "FullName")
-        protected String fullName;
-        @XmlElement(name = "Address")
-        protected String address;
-        @XmlElement(name = "PhoneNumber")
-        protected String phoneNumber;
-        @XmlElement(name = "Email")
-        protected String email;
+		/**
+		 * Gets the value of the studentId property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getStudentId() {
+			return studentId;
+		}
 
-        /**
-         * Gets the value of the studentId property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getStudentId() {
-            return studentId;
-        }
+		/**
+		 * Sets the value of the studentId property.
+		 * 
+		 * @param value
+		 *            allowed object is {@link String }
+		 * 
+		 */
+		public void setStudentId(String value) {
+			this.studentId = value;
+		}
 
-        /**
-         * Sets the value of the studentId property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setStudentId(String value) {
-            this.studentId = value;
-        }
+		/**
+		 * Gets the value of the fullName property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getFullName() {
+			return fullName;
+		}
 
-        /**
-         * Gets the value of the fullName property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getFullName() {
-            return fullName;
-        }
+		/**
+		 * Sets the value of the fullName property.
+		 * 
+		 * @param value
+		 *            allowed object is {@link String }
+		 * 
+		 */
+		public void setFullName(String value) {
+			this.fullName = value;
+		}
 
-        /**
-         * Sets the value of the fullName property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setFullName(String value) {
-            this.fullName = value;
-        }
+		/**
+		 * Gets the value of the address property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getAddress() {
+			return address;
+		}
 
-        /**
-         * Gets the value of the address property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getAddress() {
-            return address;
-        }
+		/**
+		 * Sets the value of the address property.
+		 * 
+		 * @param value
+		 *            allowed object is {@link String }
+		 * 
+		 */
+		public void setAddress(String value) {
+			this.address = value;
+		}
 
-        /**
-         * Sets the value of the address property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setAddress(String value) {
-            this.address = value;
-        }
+		/**
+		 * Gets the value of the phoneNumber property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getPhoneNumber() {
+			return phoneNumber;
+		}
 
-        /**
-         * Gets the value of the phoneNumber property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getPhoneNumber() {
-            return phoneNumber;
-        }
+		/**
+		 * Sets the value of the phoneNumber property.
+		 * 
+		 * @param value
+		 *            allowed object is {@link String }
+		 * 
+		 */
+		public void setPhoneNumber(String value) {
+			this.phoneNumber = value;
+		}
 
-        /**
-         * Sets the value of the phoneNumber property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setPhoneNumber(String value) {
-            this.phoneNumber = value;
-        }
+		/**
+		 * Gets the value of the email property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getEmail() {
+			return email;
+		}
 
-        /**
-         * Gets the value of the email property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getEmail() {
-            return email;
-        }
+		/**
+		 * Sets the value of the email property.
+		 * 
+		 * @param value
+		 *            allowed object is {@link String }
+		 * 
+		 */
+		public void setEmail(String value) {
+			this.email = value;
+		}
 
-        /**
-         * Sets the value of the email property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setEmail(String value) {
-            this.email = value;
-        }
-
-    }
+		public String getProfileName() {
+			return email.split("@")[0];
+		}
+	}
 
 }
