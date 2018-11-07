@@ -1,0 +1,58 @@
+<StudentAttendances>
+  <StudentAttendance>
+    <StudentId>SE05043</StudentId>
+    <FullName>Đặng Thành Đạt</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>datdtse05043@fpt.edu.vn</Email>
+    <Present>0</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE04793</StudentId>
+    <FullName>Nguyễn Văn Sơn</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>sonnvse04793@fpt.edu.vn</Email>
+    <Present>1</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE05044</StudentId>
+    <FullName>Nguyễn Văn A</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>anvse05044@fpt.edu.vn</Email>
+    <Present>1</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE05030</StudentId>
+    <FullName>Nguyễn Văn B</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>bnvse05030@fpt.edu.vn</Email>
+    <Present>1</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE05430</StudentId>
+    <FullName>Nguyễn Văn C</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>cnvse05430@fpt.edu.vn</Email>
+    <Present>0</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE50043</StudentId>
+    <FullName>Lê Thị D</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>dltse050043@fpt.edu.vn</Email>
+    <Present>1</Present>
+  </StudentAttendance>
+  <StudentAttendance>
+    <StudentId>SE45043</StudentId>
+    <FullName>Đặng Thị E</FullName>
+    <CourseId>MLN101</CourseId>
+    <GroupId>IS1104</GroupId>
+    <Email>edtse45043@fpt.edu.vn</Email>
+    <Present>1</Present>
+  </StudentAttendance>
+</StudentAttendances>
