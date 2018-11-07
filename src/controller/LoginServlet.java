@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
 			if (account != null) {
 				HttpSession session = request.getSession();
 				session.setAttribute(Constants.SESSION_EMAIL, email);
-				out.println("Successful" + session.getAttribute(Constants.SESSION_EMAIL));
+				response.sendRedirect("ProfileServlet");
 			} else {
 				RequestDispatcher requestDispatcher = request.getRequestDispatcher("/Login.jsp");
 				requestDispatcher.include(request, response);

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Attendances" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Attendances" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Attendance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StudentId" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduleId" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupName" type="xs:string" minOccurs="0" />
+              <xs:element name="CourseName" type="xs:string" minOccurs="0" />
+              <xs:element name="Present" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
